@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_service" table="x_1045556_addsubsr_subscribers">
+        <active>true</active>
+        <array>false</array>
+        <attributes>encode_utf8=false</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Service</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_service</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <name>x_1045556_addsubsr_subscribers</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="cmdb_ci_service">cmdb_ci_service</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-22 18:12:03</sys_created_on>
+        <sys_id>05b293aa2f16a110dc10a85df699b63e</sys_id>
+        <sys_name>Service</sys_name>
+        <sys_package display_value="AddSubsrcibers" source="x_1045556_addsubsr">d8aab2a22fd2a110dc10a85df699b69e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AddSubsrcibers">d8aab2a22fd2a110dc10a85df699b69e</sys_scope>
+        <sys_update_name>sys_dictionary_x_1045556_addsubsr_subscribers_u_service</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-22 18:15:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AddSubsrcibers">d8aab2a22fd2a110dc10a85df699b69e</application>
+        <file_path/>
+        <instance_id>9b4459b7dbe03700f492c5970596196c</instance_id>
+        <instance_name>dev79598</instance_name>
+        <name>sys_dictionary_x_1045556_addsubsr_subscribers_u_service</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_service" table="x_1045556_addsubsr_subscribers"><active>true</active><array>false</array><attributes>encode_utf8=false</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Service</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_service</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>true</mandatory><max_length>32</max_length><name>x_1045556_addsubsr_subscribers</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="cmdb_ci_service">cmdb_ci_service</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-22 18:12:03</sys_created_on><sys_id>05b293aa2f16a110dc10a85df699b63e</sys_id><sys_name>Service</sys_name><sys_package display_value="AddSubsrcibers" source="x_1045556_addsubsr">d8aab2a22fd2a110dc10a85df699b69e</sys_package><sys_policy/><sys_scope display_value="AddSubsrcibers">d8aab2a22fd2a110dc10a85df699b69e</sys_scope><sys_update_name>sys_dictionary_x_1045556_addsubsr_subscribers_u_service</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-22 18:15:13</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-1212609686</payload_hash>
+        <record_name>Subscribers.Service</record_name>
+        <reverted_from/>
+        <source>1caab2a22fd2a110dc10a85df699b6a0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-22 18:15:13</sys_created_on>
+        <sys_id>e7635faa2f16a110dc10a85df699b685</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187aa2d61f40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-22 18:15:13</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>23635faa1516a1107c9f774cef12e785</update_guid>
+        <update_guid_history>23635faa1516a1107c9f774cef12e785:-1212609686,15b293aa7b16a1109445df770f85ebad:-737396428,41b293aa2416a1104ef8bd50aa5bb399:-1113607777</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-22 18:20:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>2b43461dde7846308598f3da23baa900</sys_id>
+        <sys_metadata>05b293aa2f16a110dc10a85df699b63e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service</sys_name>
+        <sys_package display_value="AddSubsrcibers" source="x_1045556_addsubsr">d8aab2a22fd2a110dc10a85df699b69e</sys_package>
+        <sys_parent display_value="Subscribers">91ae8f662f16a110dc10a85df699b6ae</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="AddSubsrcibers">d8aab2a22fd2a110dc10a85df699b69e</sys_scope>
+        <sys_scope_delete display_value="">5e4180f6c47344a091fc2566b61b3981</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1045556_addsubsr_subscribers_u_service</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1045556_addsubsr_subscribers_u_service">e7635faa2f16a110dc10a85df699b685</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-22 18:20:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
